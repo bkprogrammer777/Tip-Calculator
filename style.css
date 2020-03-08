@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+}
+
+
+.container-fluid{
+    position: relative;
+    display: inline-block;
+    margin: 100px auto;
+    text-align: center;
+    padding: 0;
+    
+}
+
+.card{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    top: 30%; /*Adjust this value to move the positioned div up and down */
+    text-align: left;
+    border-radius: 25px;
+    
+    
+}
+
+img{
+    border-radius: 35px;
+}
+
+li{
+    position: absolute;
+    /* margin: auto;
+    padding: auto;
+    text-align: left; */
+    
+}
+
+
+.tip{
+    margin: auto;
+    text-align: center;
+    
+}
+
+.bill{
+    text-align: center;
+}
+.card-header{
+text-align: center;
+font-size: 1.5rem; 
+}
+
+
+.people{
+text-align: left;
+margin-left: 50px;
+}
+
+.total{
+margin: auto;
+padding: auto;
+}
+
+.buttons{
+    text-align: center;
+    
+}
+button{
+    margin: 5px;
+}
+
+#tiptotal{
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+input{
+    width: 20%;
+}
